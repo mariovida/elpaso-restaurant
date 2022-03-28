@@ -6,7 +6,7 @@
 }
 body {
     background-color: #222831;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
     scrollbar-width: none; /* for Firefox */
     overflow-y: scroll;
