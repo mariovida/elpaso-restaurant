@@ -28,17 +28,34 @@
         background-size: cover;
         transition: 0.2s;
       }
+      #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100vh;
+        opacity: 0.5;
+      }
       .mySlides {display:none;}
+      @media screen and (max-width: 600px) {
+        body {
+          background-position: right;
+        }
+      }
   </style>
 </head>
 <body>
-    <div id="loader" class="loader-wrapper animate__animated animate__fadeOut animate__delay-3s">
+    <!--<div id="loader" class="loader-wrapper animate__animated animate__fadeOut animate__delay-3s">
         <div class="loader-box">
             <div class="icon">
             <i class="fas fa-utensils"></i>
             </div>
         </div>
-    </div>
+    </div>-->
+
+    <video autoplay muted loop id="myVideo">
+      <source src="img/video_show.mp4" type="video/mp4">
+    </video>
 
     <div id="page" class="animate__animated animate__fadeIn"> <!-- animate__delay-4s -->
         <div class="load_page">
@@ -189,7 +206,7 @@
       })
     }
 
-    window.addEventListener("scroll", () => { 
+    window.addEventListener("scroll", () => {
       handleScrollAnimation();
     });
 
@@ -200,12 +217,12 @@
       var i;
       var x = document.getElementsByClassName("mySlides");
       for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none"; 
+        x[i].style.display = "none";
       }
       slideIndex++;
-      if (slideIndex > x.length) {slideIndex = 1} 
-      x[slideIndex-1].style.display = "block"; 
-      setTimeout(carousel, 5000); 
+      if (slideIndex > x.length) {slideIndex = 1}
+      x[slideIndex-1].style.display = "block";
+      setTimeout(carousel, 5000);
     }
     </script>
 </body>
