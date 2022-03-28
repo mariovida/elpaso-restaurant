@@ -31,7 +31,7 @@ body::-webkit-scrollbar {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }
 .icon {
     font-size: 5rem;
@@ -72,7 +72,7 @@ nav {
 nav a {
   position: relative;
   color: #F2F2F2;
-  font-size: 18px;
+  font-size: 1.5rem;
   font-weight: 300;
   text-decoration: none;
   padding: 8px 15px 8px 15px;
@@ -83,7 +83,7 @@ nav a {
 }
 /*nav a:before, nav a:after {
 	content: '';
-	position: absolute;	
+	position: absolute;
 	transition: inherit;
 	z-index: -1;
 }
@@ -162,7 +162,7 @@ nav.change_color a {
     width: 100%;
     background-color: #404040;
     margin-top: 100vh;
-    position: relative;
+    position: hidden;
     padding: 100px 0 40px 0;
     overflow: visible;
     z-index: 1;
@@ -194,7 +194,7 @@ nav.change_color a {
   padding-bottom: 20px;
 }
 .about h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 400;
 }
 .about_gallery {
@@ -534,18 +534,18 @@ footer p {
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 10px;
   }
-  
+
   .login-box h2 {
     margin: 0 0 30px;
     padding: 0;
     color: #fff;
     text-align: center;
   }
-  
+
   .login-box .user-box {
     position: relative;
   }
-  
+
   .login-box .user-box input {
     width: 100%;
     padding: 10px 0;
@@ -567,7 +567,7 @@ footer p {
     pointer-events: none;
     transition: .5s;
   }
-  
+
   .login-box .user-box input:focus ~ label,
   .login-box .user-box input:valid ~ label {
     top: -20px;
@@ -575,7 +575,7 @@ footer p {
     color: #03e9f4;
     font-size: 12px;
   }
-  
+
   .login-box form a {
     position: relative;
     display: inline-block;
@@ -589,7 +589,7 @@ footer p {
     margin-top: 40px;
     letter-spacing: 4px
   }
-  
+
   .login-box a:hover {
     background: #03e9f4;
     color: #fff;
@@ -599,12 +599,12 @@ footer p {
                 0 0 50px #03e9f4,
                 0 0 100px #03e9f4;
   }
-  
+
   .login-box a span {
     position: absolute;
     display: block;
   }
-  
+
   .login-box a span:nth-child(1) {
     top: 0;
     left: -100%;
@@ -613,7 +613,7 @@ footer p {
     background: linear-gradient(90deg, transparent, #03e9f4);
     animation: btn-anim1 1s linear infinite;
   }
-  
+
   @keyframes btn-anim1 {
     0% {
       left: -100%;
@@ -622,7 +622,7 @@ footer p {
       left: 100%;
     }
   }
-  
+
   .login-box a span:nth-child(2) {
     top: -100%;
     right: 0;
@@ -632,7 +632,7 @@ footer p {
     animation: btn-anim2 1s linear infinite;
     animation-delay: .25s
   }
-  
+
   @keyframes btn-anim2 {
     0% {
       top: -100%;
@@ -641,7 +641,7 @@ footer p {
       top: 100%;
     }
   }
-  
+
   .login-box a span:nth-child(3) {
     bottom: 0;
     right: -100%;
@@ -651,7 +651,7 @@ footer p {
     animation: btn-anim3 1s linear infinite;
     animation-delay: .5s
   }
-  
+
   @keyframes btn-anim3 {
     0% {
       right: -100%;
@@ -660,7 +660,7 @@ footer p {
       right: 100%;
     }
   }
-  
+
   .login-box a span:nth-child(4) {
     bottom: -100%;
     left: 0;
@@ -670,7 +670,7 @@ footer p {
     animation: btn-anim4 1s linear infinite;
     animation-delay: .75s
   }
-  
+
   @keyframes btn-anim4 {
     0% {
       bottom: -100%;
@@ -738,4 +738,212 @@ footer p {
     background-color: #f29040;
     color: white;
 }
-  
+
+@media screen and (max-width: 1440px) {
+  .about h2 {
+    font-size: 1.5rem;
+  }
+  .food_column h2 {
+    font-size: 28px;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  nav a {
+    font-size: 1.2rem;
+  }
+  .load_page h1 {
+    font-size: 2.8rem;
+  }
+  .name {
+    font-size: 5.5rem;
+  }
+  .about h2 {
+    font-size: 1rem;
+  }
+  .food h1 {
+    font-size: 56px;
+  }
+  .food_column h2 {
+    font-size: 26px;
+  }
+  .food_column h3, .food_column h4 {
+    font-size: 21px;
+  }
+  .food_column h4 {
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 35px;
+    padding-right: 10%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .load_page h1 {
+    font-size: 2.1rem;
+  }
+  .name {
+    font-size: 4.5rem;
+  }
+  .about h1, .about h2 {
+    float: none;
+    width: 70%;
+    margin-left: 5%;
+    padding-right: 0;
+  }
+  .about h1 {
+    font-size: 3rem;
+    padding-bottom: 20px;
+  }
+  .about h2 {
+    font-size: 1.3rem;
+  }
+  .about_gallery {
+    width: 60%;
+    margin-left: 45%;
+    margin-top: 50px;
+  }
+  .about_gallery img {
+    width: 40%;
+  }
+  img.about_img_small {
+    width: 35%;
+  }
+  .food h1 {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .load_page h1 {
+    font-size: 1.8rem;
+  }
+  .name {
+    font-size: 3.8rem;
+  }
+  .about h1, .about h2 {
+    width: 80%;
+    margin-left: 5%;
+  }
+  .about h1 {
+    font-size: 3.5rem;
+  }
+  .about h2 {
+    font-size: 1.4rem;
+  }
+  .about_gallery {
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 50px;
+  }
+  .food_wrapper {
+    display: block;
+    width: 90%;
+  }
+  .food_column {
+    float: left;
+    width: 50%;
+  }
+  .food_column img {
+    width: 70%;
+    margin-left: 15%;
+  }
+  .food_column h2 {
+    text-align: center;
+  }
+  .food_column h3, .food_column h4 {
+    text-align: center;
+  }
+  .food_column h4 {
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .food a {
+    display: inline-block;
+    margin-left: 35%;
+    width: 30%;
+    margin-top: 70px;
+    font-size: 21px;
+  }
+}
+@media screen and (max-width: 640px) {
+  nav {
+    display: none;
+  }
+  #myVideo {
+    display: none;
+  }
+
+  .load_page h1 {
+    font-size: 1.4rem;
+  }
+  .name {
+    display: inline-block;
+    font-size: 2.8rem;
+    padding-top: 30px;
+  }
+  .about h1, .about h2 {
+    display: inline-block;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+  }
+  .about h1 {
+    font-size: 3.6rem;
+  }
+  .about h2 {
+    font-size: 1.2rem;
+  }
+  .about_gallery {
+    width: 100%;
+    margin-left: 7%;
+    margin-top: 80px;
+  }
+  .food_column {
+    width: 100%;
+  }
+  .food_column img {
+    width: 60%;
+    margin-left: 20%;
+  }
+  .food_column h2 {
+    width: 100%;
+    font-size: 28px;
+    padding: 0;
+    margin: 0;
+    padding: 10px 10px 0 10px;
+  }
+  .food_column h3, .food_column h4 {
+    font-size: 20px;
+  }
+  .food_column h4 {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    padding: 25px 5px 0 5px;
+    padding-bottom: 50px;
+  }
+  .food a {
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 40px;
+    font-size: 16px;
+  }
+  footer {
+    display: inline-block;
+    padding: 0 0 50px 0;
+    margin-top: -5px;
+  }
+  footer h4 {
+    font-size: 14px;
+    padding-top: 50px;
+  }
+  footer p {
+    font-size: 12px;
+    padding-top: 5px;
+  }
+  .footer_section {
+    width: 100%;
+  }
+}
