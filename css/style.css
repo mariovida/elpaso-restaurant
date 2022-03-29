@@ -1023,7 +1023,6 @@ footer p {
     height: 240px;
     margin-left: 10%;
     overflow: hidden;
-    border-radius: 4px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
   .card::after {
