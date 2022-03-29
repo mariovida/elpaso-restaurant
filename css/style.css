@@ -946,6 +946,7 @@ footer p {
    /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
     background-color: #404040;
     transition: all 0.3s ease-in-out;
+    -webkit-tap-highlight-color: transparent;
   }
   #active:checked ~ .menu-btn{
     color: #fff;
