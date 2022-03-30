@@ -1006,4 +1006,14 @@ footer p {
   .footer_section {
     width: 100%;
   }
+  #page form {
+    width: 90vw;
+    margin-top: 100px;
+  }
+  #page form input {
+    width: 100%;
+  }
+  #page form button {
+    width: 100%;
+  }
 }
