@@ -688,7 +688,6 @@ footer p {
   }
 }
 @media screen and (max-width: 800px) {
-  nav {display: none;}
   .load_page h1 {
     font-size: 1.8rem;
   }
