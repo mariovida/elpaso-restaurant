@@ -28,6 +28,10 @@ Password: 1234
 ```
 ![image](/img/screen_login.png)
 
+<p align="left">The administrator privileges allow people to see pending reservations and confirm or delete them, to see confirmed reservations, to see revenues and many other things that make running a restaurant easier.</p>
+
+![image](/img/show6.png)
+
 
 ## Showcase
 ![image](/img/show2.png)
