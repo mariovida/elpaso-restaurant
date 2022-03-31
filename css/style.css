@@ -32,7 +32,7 @@ body::-webkit-scrollbar {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
 }
 .icon {
     font-size: 5rem;
@@ -86,7 +86,7 @@ nav a {
 }
 /*nav a:before, nav a:after {
 	content: '';
-	position: absolute;
+	position: absolute;	
 	transition: inherit;
 	z-index: -1;
 }
@@ -593,7 +593,7 @@ footer p {
   margin-top: 30px;
   cursor: pointer;
 }
-
+  
 @media screen and (max-width: 1440px) {
   .about h2 {
     font-size: 1.5rem;
