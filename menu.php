@@ -57,7 +57,7 @@
         <div class="food_drink">
             <div class="menu_food">
                 <div class="food_img">
-                    <a href="lebensmittel.php" class="middle">LEBENSMITTEL</a>
+                    <a href="lebensmittel.php" class="middle">ESSEN</a>
                 </div>
             </div>
             <div class="menu_drinks">
