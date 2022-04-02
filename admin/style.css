@@ -6,6 +6,7 @@
 body {
   font-family: 'Raleway';
   background-color: #222831;
+  /*background-color: #F5F5F5;*/
   height: auto;
 }
 #left-bar {
@@ -30,6 +31,18 @@ body {
   font-size: 16px;
   text-align: center;
   color: #EEEEEE;
+}
+hr {
+    width: 80%;
+    margin: 0 auto;
+}
+hr:first-of-type {
+    margin-top: 30px;
+}
+#left-bar h4 {
+    text-align: center;
+    padding: 12px 0;
+    color: #EEEEEE;
 }
 #left-bar a:first-of-type {
   margin-top: 35px;
@@ -64,21 +77,27 @@ p.counter {
     height: 240px;
     margin-left: 280px;
     margin-top: 35px;
-    padding: 12px;
+    float: left;
+    padding: 20px 20px;
     background-color: #EEEEEE;
     border-radius: 5px;
+    /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
 }
 .reservation_status h1, .revenue_status h1 {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
     padding-right: 80px;
+}
+.reservation_status a {
+    text-decoration: none;
+    color: inherit;
 }
 .reservation_status h2, .revenue_status h2 {
     font-size: 36px;
     font-weight: 600;
 }
 .revenue_status {
-    height: 100px;
+    margin-left: 30px;
 }
 .revenue_status h2 {
     padding-top: 10px;
@@ -128,7 +147,7 @@ p.counter {
 	letter-spacing: 0.5px;
 }
 .table-row {
-	background-color: #F2F2F2;
+	background-color: #EEEEEE;
 	box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
 	font-size: 18px;
 }

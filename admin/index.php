@@ -26,6 +26,9 @@
     <section id="left-bar">
 		<h2>EL PASO</h2>
 		<h3>MANAGEMENT SYSTEM</h3>
+        <hr/>
+        <h4>USER: <?php echo $_SESSION['username']; ?></h4>
+        <hr/>
 		<a href="index.php">Home</a>
 		<a href="reservations.php">Reservations</a>
 		<a href="reservation_check.php">Pending reservations</a>
@@ -51,7 +54,7 @@
             }
             ?>
         </h2>
-        <br/><br/><h1>PENDING RESERVATIONS:</h1>
+        <br/><br/><h1><a href="reservation_check.php">PENDING RESERVATIONS:</a></h1>
         <h2>
             <?php 
             if ($dbc) {
@@ -70,7 +73,9 @@
     </div>
 
     <div class="revenue_status">
-        <h1>YESTERDAY'S REVENUE:</h1>
+        <h1>THIS MONTH'S REVENUE:</h1>
+        <h2>€ 3842,42</h2>
+        <br/><br/><h1>YESTERDAY'S REVENUE:</h1>
         <h2>€ 1087,95</h2>
     </div>
 </body>

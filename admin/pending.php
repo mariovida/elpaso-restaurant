@@ -29,7 +29,7 @@
         <title>
         <?php
 			$id = $_GET['id'];
-			$query = "SELECT name FROM reservations WHERE id=$id";
+			$query = "SELECT name FROM reservations_pending WHERE id=$id";
 			$result = mysqli_query($dbc, $query);
 			while($row = mysqli_fetch_array($result)) {
 				echo $row['name'];
