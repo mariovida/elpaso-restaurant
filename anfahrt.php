@@ -52,7 +52,16 @@
             <a href="anfahrt.php" class="active_menu">ANFAHRT</a>
         </nav>
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d604.5413786407986!2d8.699373327641762!3d50.04963722979656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd0ce264f4790d%3A0x947bbe645e3955d2!2sSteakhaus%20El%20Paso!5e0!3m2!1shr!2shr!4v1648226566843!5m2!1shr!2shr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d604.5413786407986!2d8.699373327641762!3d50.04963722979656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd0ce264f4790d%3A0x947bbe645e3955d2!2sSteakhaus%20El%20Paso!5e0!3m2!1shr!2shr!4v1648226566843!5m2!1shr!2shr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div class="anfahrt-info">
+            <h3>ADDRESS</h3>
+            <h4>Herzogstraße 61A<br/>63263 Neu-Isenburg</h4>
+            <h3>KONTAKT</h3>
+            <h4>+49 (0)6102 31355</h4>
+            <h3>ÖFFNUNGSZEITEN</h3>
+            <h4>MON - SAM • 17 - 22:30<br/>SON • 11:30 - 14:30 und auch 17 - 22:30</h4>
+        </div>
     </div>
 
     <script type="text/javascript">
