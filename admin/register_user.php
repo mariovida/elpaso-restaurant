@@ -32,7 +32,6 @@
 	</section>
 
     <form method="POST" action="" name="reg" class="reg_form">
-        <h1>BENUTZERREGISTRIERUNG</h1>
         <input name="name" id="name" type="text" class="form_name" placeholder="Name" required/>
             <br/><br/>
 
